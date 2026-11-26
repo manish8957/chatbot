@@ -1,0 +1,28 @@
+# Environment & Secrets
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local Data & Uploads
+database/*.db
+database/*.db-journal
+database/*.sqlite*
+uploaded_files/*
+!uploaded_files/.gitkeep
+faiss_index/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.pytest_cache/
